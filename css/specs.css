@@ -1,3 +1,110 @@
-.first-div{
-    color:red;
+*{
+    padding: 0;
+    margin: 0;
 }
+.section-one{
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60%;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    width: 100%;
+    margin-top: 21px;
+}
+.heading{
+    width: fit-content;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.links{
+    display: flex;
+    width: fit-content;
+    text-align: center;
+    font-size: 13px;
+    gap: 25px;
+    font-size: 15px;
+}
+.links a{
+    color: #898989;
+    text-decoration: none;
+}
+.links a:hover{
+    color: black;
+    transition: 0.15s ease-in-out;
+}
+.container-two{
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    width: 100%;
+}
+.section-two{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    width: 100%;
+    margin-top: 1%;
+}
+.dimension{
+    text-align: center;
+    width: 10%;
+}
+.section-two-caption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 25%;
+    margin-left: 18%;
+    margin-top: 3%;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.section-third{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0px 30px;
+    width: 1090px;
+    
+}
+.section-third-heading{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    width: 30%;
+    padding: 11px 0;
+}
+.section-third-detail{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+}
+.section-third-detail-one{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    display: flex;
+    padding: 15px 0;
+    gap: 13%;
+    text-align: left;
+}
+.section-third-sub-head{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width:30%;
+    color: #0b0b0b;
+    font-weight: 700;
+}
+.section-third-sub-detail{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-size: 16px;
+    width: 60%;
+    width:70%;
+    color:#5d5d5d;
+}
+

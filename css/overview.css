@@ -1,0 +1,1035 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.nav{
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60%;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    width: 100%;
+    margin-top: 21px;
+    
+}
+.heading{
+    width: fit-content;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.links{
+    display: flex;
+    width: fit-content;
+    text-align: center;
+    font-size: 13px;
+    gap: 25px;
+    font-size: 15px;
+}
+.links a{
+    color: #898989;
+    text-decoration: none;
+}
+.links a:hover{
+    color: black;
+    transition: 0.15s ease-in-out;
+}
+.section-one-hero{
+    position: relative;
+    margin-top: 1%;
+    background-color: black;
+}
+.img_text{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    align-items: center;
+    margin-top: 14%;
+    font-size: 30px;
+}
+.text{
+    margin-left: 1%;
+}
+.img_text_sub{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 53.5%;
+    align-items: center;
+    margin-top: 19%;
+    font-size: 26px;
+}
+.section-two-work{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+}
+.above-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0rem 11rem 0rem 13rem;
+    position: absolute;
+    margin-top: 4%;
+    width: 100%;
+}
+.below-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 9rem 2rem 11rem;
+    position: absolute;
+    margin-top: 4%;
+    width: 100%;
+}
+.above-container-item-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px;
+    justify-content: center;
+    width: 35%;
+    margin-top: 3%;
+}
+
+.below-container-item-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px;
+    justify-content: center;
+    width: 35%;
+    margin-top: 12%;
+}
+
+.end-line{
+    display: flex;
+    color: #909090;
+    position: absolute;
+    font-size: 8px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+}
+.section-three-img{
+    position: relative;
+}
+.section-three-img-text-text{
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 36%;
+    right: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.section-three-heading{
+    width: 30%;
+    font-weight: 700;
+    font-size: 29px;
+
+}
+.section-three-paragraph{
+
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+.section-four-img{
+    position: relative;
+}
+.section-four-text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 10%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-four-heading{
+    width: 50%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+.section-four-paragraph{
+    width: 47%;
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+.section-five-img{
+    position: relative;
+}
+.section-five-text{
+    position: absolute;
+    left: 29%;
+    top: 33%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-five-heading{
+    width: 35%;
+    font-weight: 700;
+    font-size: 33px;
+    text-align: left;
+
+}
+.section-five-paragraph{
+    width: 35%;
+    margin-top: 1%;
+    font-size: 15px;
+    text-align: left;
+
+}
+.section-six-img{
+    position: relative;
+}
+.section-six-text{
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 78%;
+}
+.section-six-heading{
+    width: 35%;
+    font-weight: 700;
+    font-size: 31px;
+    text-align: left;
+}
+.section-six-sub-heading{
+    width: 45%;
+    font-weight: 700;
+    font-size: 31px;
+    text-align: left;
+}
+.section-six-container{
+    position: absolute;
+    left: 22%;
+    inset: 55% 0px 0px 22%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+.first-span{
+    display: flex;
+    align-items: center;
+    gap: 2px
+}
+.section-six-container h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.section-six-container .first-span-para{
+    margin-top: 31px;
+}
+.section-seven-img{
+    position: relative;
+}
+.section-seven-text{
+    position: absolute;
+    left: 26%;
+    top: 34%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-seven-heading{
+    width: 35%;
+    font-weight: 700;
+    font-size: 33px;
+    text-align: left;
+
+}
+.section-seven-paragraph{
+    width: 35%;
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.section-eight{
+    background-color: black;
+}
+
+.section-eight-img{
+    position: relative;
+}
+.section-eight-text{
+    position: absolute;
+    left: 26%;
+    top: 22%;
+    right: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-eight-heading{
+    width: 29%;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    margin-right: 67px
+
+}
+.section-eight-paragraph{
+    width: 35%;
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: left;
+
+}
+.section-eight-logo{
+    display: flex;
+    padding: 44px;
+}
+.section-eight-first-logo{
+    position: absolute;
+    right: 47%;
+    width: 35%;
+
+}
+.section-eight-second-logo{
+    position: absolute;
+    right: 35%;
+    width: 35%;
+
+}
+.section-eight-third-logo{
+    position: absolute;
+    right: 22%;
+    width: 35%;
+
+}
+.section-eight-second-logo-para{
+    margin-top: 2%;
+}
+.section-eight-last-para{
+    width: 43%;
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 16%;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+
+.section-nine-img{
+    position: relative;
+}
+.section-nine-text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 18%;
+    right: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.section-nine-heading{
+    width: 23%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+.section-nine-paragraph{
+    width: 34%;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 14px;
+    text-align: left;
+}
+
+.section-tenth-img{
+    position: relative;
+}
+.section-tenth-text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 10%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-tenth-heading{
+    width: 50%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+.section-tenth-paragraph{
+    width: 47%;
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+.section-eleven-img{
+    position: relative;
+}
+.section-eleven-text{
+    position: absolute;
+    left: 26%;
+    top: 22%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-eleven-heading{
+    width: 33%;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    margin-right: 67px
+
+}
+.section-eleven-paragraph{
+    width: 39%;
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: left;
+
+}
+.section-eleven-logo{
+    display: flex;
+    padding: 44px;
+}
+.section-eleven-logo-sub{
+    display: flex;
+    padding: 44px;
+    margin-top: 3%;
+}
+.section-eleven-first-logo{
+    position: absolute;
+    right: 47%;
+    width: 35%;
+
+}
+.section-eleven-second-logo{
+    position: absolute;
+    right: 33%;
+    width: 35%;
+
+}
+.section-eleven-third-logo{
+    position: absolute;
+    right: 20%;
+    width: 35%;
+
+}
+.section-eleven-second-logo-para{
+    margin-top: 2%;
+}
+
+.section-eleven-first-logo-para{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-eleven-second-logo-para{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-eleven-third-logo-para{
+    width: 36%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.section-eleven-fourth-sub-logo-para-one{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-eleven-fifth-sub-logo-para-two{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-eleven-sixth-sub-logo-para-three{
+    width: 36%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.section-twelve-img{
+    position: relative;
+}
+.section-twelve-text{
+    position: absolute;
+    left: 17%;
+    top: 27%;
+    right: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.section-twelve-heading{
+    width: 53%;
+    font-weight: 700;
+    font-size: 33px;
+    text-align: left;
+
+}
+.section-twelve-paragraph{
+    width: 36%;
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: left;
+}
+.section-thirteen-img{
+    position: relative;
+}
+.section-thirteen-first-heading{
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    top: 40%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    width: 25%;
+}
+.section-thirteen-second-heading{
+    position: absolute;
+    left: 34%;
+    bottom:0;
+    top: 40%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    width: 25%;
+}
+.section-thirteen-first-paragraph{
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    top: 48%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 24%;
+    font-size: 15px;
+}
+.section-thirteen-second-paragraph{
+    position: absolute;
+    left: 34%;
+    bottom: 0;
+    top: 48%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 24%;
+    font-size: 15px;
+}
+
+.section-thirteen-third-heading{
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    top: 70%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.section-thirteen-fourth-heading{
+    position: absolute;
+    left: 34%;
+    bottom:0;
+    top: 70%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.section-thirteen-third-paragraph{
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    top: 80%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 24%;
+    font-size: 15px;
+}
+.section-thirteen-fourth-paragraph{
+    position: absolute;
+    left: 34%;
+    bottom: 0;
+    top: 80%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 24%;
+    font-size: 15px;
+}
+
+.section-fourteen-img{
+    position: relative;
+}
+.first-heading{
+    position: absolute;
+    left: 12%;
+    bottom: 0;
+    top: 18%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.first-paragraph{
+    position: absolute;
+    left: 12%;
+    bottom: 0;
+    top: 28%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 30%;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.second-heading{
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    top: 63%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.second-paragraph{
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    top: 73%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    width: 30%;
+    line-height: 23px;
+    font-size: 15px;
+}
+/* .section-tenth-img{
+    position: relative;
+} */
+.section-fifteen-wrapper{
+    position: relative;
+    width: 100%;
+    height: 820px;
+
+}
+.section-fifteen-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    position: absolute;
+}
+.section-fifteen-text{
+    margin-top: 7%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+.section-fifteen-heading{
+    width: 50%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+.section-fifteen-paragraph{
+    width: 47%;
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+
+
+.section-sixteen{
+    position: relative;
+    width: 100%;
+    height: 660px;
+
+}
+.section-sixteen-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    position: absolute;
+}
+.section-sixteen-text{
+    margin-top: 7%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+.section-sixteen-heading{
+    width: 50%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+.section-sixteen-paragraph{
+    width: 47%;
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+.section-sixteen-video-wrapper{
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    gap: 2%;
+
+}
+
+.section-seventeen-img{
+    position: relative;
+}
+.section-seventeen-text{
+    position: absolute;
+    left: 26%;
+    top: 22%;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.section-seventeen-heading{
+    width: 35%;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    margin-right: 49px
+
+}
+.section-seventeen-paragraph{
+    width: 39%;
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: left;
+
+}
+.section-seventeen-logo{
+    display: flex;
+    padding: 44px;
+}
+.section-seventeen-logo-sub{
+    display: flex;
+    padding: 44px;
+    margin-top: 3%;
+}
+.section-seventeen-first-logo{
+    position: absolute;
+    right: 47%;
+    width: 35%;
+
+}
+.section-seventeen-second-logo{
+    position: absolute;
+    right: 33%;
+    width: 35%;
+
+}
+.section-seventeen-third-logo{
+    position: absolute;
+    right: 20%;
+    width: 35%;
+
+}
+.section-seventeen-second-logo-para{
+    margin-top: 2%;
+}
+
+.section-seventeen-first-logo-para{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-seventeen-second-logo-para{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-seventeen-third-logo-para{
+    width: 36%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.section-seventeen-fourth-sub-logo-para-one{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-seventeen-fifth-sub-logo-para-two{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.section-seventeen-sixth-sub-logo-para-three{
+    width: 36%;
+    margin-left: 33%;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.section-seventeen-last-para{
+    width: 43%;
+    text-align: left;
+    margin-left: 4%;
+    margin-top: 9%;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.section-eighteen-img{
+    position: relative;
+}
+.section-eighteen-text{
+    /* position: absolute; */
+    margin-top: 6%;
+    top: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+.section-eighteen-heading{
+    width: 50%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+
+.section-eighteen-heading-sub{
+    width: 70%;
+    font-weight: 700;
+    font-size: 33px;
+
+}
+
+.section-eighteen-paragraph{
+
+    width: 47%;
+    margin-top: 1%;
+    font-size: 15px;
+
+}
+
+.section-eighteen-left-text-one{
+    position: absolute;
+    top: 30%;
+    width: 20%;
+    left: 11%;
+    text-align: left;
+}
+
+.section-eighteen-left-text-two{
+    position: absolute;
+    top: 57%;
+    width: 27%;
+    left: 11%;
+    text-align: left;
+}
+
+.section-eighteen-left-text-one-heading{
+    font-size: 24px;
+}
+.section-eighteen-left-text-one-para{
+    margin-top: 9%;
+    font-size: 12px;
+}
+
+
+
+.section-eighteen-right-text-one{
+    position: absolute;
+    top: 30%;
+    width: 20%;
+    left: 69%;
+    text-align: left;
+}
+
+.section-eighteen-right-text-two{
+    position: absolute;
+    top: 57%;
+    width: 27%;
+    left: 69%;
+    text-align: left;
+}
+
+.section-eighteen-right-text-one-heading{
+    font-size: 24px;
+}
+.section-eighteen-right-text-one-para{
+    margin-top: 9%;
+    font-size: 12px;
+}
+
+.section-twenty-img{
+    position: relative;
+}
+
+.section-twenty-text{
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    right: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+/* .section-twenty-text-link{
+    color: white;
+    text-decoration: none;
+} */
+.section-twenty-text a{
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.section-twenty-one{
+    width: 100%;
+}
+
+.twenty-one-text{
+    color: #8f8f8f;
+    display: flex;
+    width: 46%;
+    justify-content: center;
+    margin-left: 28%;
+    font-size: 9px;
+    flex-direction: column;
+    margin-top: 4%;
+    gap: 6px;
+
+}
